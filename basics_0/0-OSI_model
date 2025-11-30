@@ -3,7 +3,7 @@
 # Answers for OSI model questions
 
 # 1. What is the OSI model?
-echo "2"
+echo 2
 
 # 2. How is the OSI model organized?
-echo "2"
+echo 2
