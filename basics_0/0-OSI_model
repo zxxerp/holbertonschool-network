@@ -1,9 +1,2 @@
-#!/usr/bin/env bash
-# Answers for OSI model questions
-
-# Question 1: What is the OSI model?
-echo 2
-
-# Question 2: How is the OSI model organized?
-echo 2
-
+2
+2
