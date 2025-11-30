@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Script to configure localhost and facebook.com IP addresses
+
+# Backup current /etc/hosts
+cp /etc/hosts /etc/hosts.bak
+
+# Remove any existing lines for localhost or facebook.com
+sed -i '/localhost/d' /etc/hosts
+sed -i '/facebook.com/d' /etc/hosts
+
+# Add the new mappings
+echo "127.0.0.2 localhost" >> /etc/hosts
+echo "8.8.8.8 facebook.com" >> /etc/hosts
