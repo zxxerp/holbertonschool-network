@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 # 0-OSI_model
-# Answers for OSI model questions
 
-# 1. What is the OSI model?
+# Question 1: What is the OSI model?
 echo 2
 
-# 2. How is the OSI model organized?
+# Question 2: How is the OSI model organized?
 echo 2
