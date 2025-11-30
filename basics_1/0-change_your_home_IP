@@ -3,7 +3,7 @@
 
 HOSTS_FILE="/etc/hosts"
 
-# Make sure we run as root
+# Ensure script runs as root
 if [[ $EUID -ne 0 ]]; then
     echo "Please run as root"
     exit 1
