@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# Display listening TCP/UDP sockets with PID/Program name using ss
+# Script that displays listening TCP/UDP ports with PID/Program name
 
-ss -lptu
+# Show only listening sockets with PID/Program name
+netstat -lp
